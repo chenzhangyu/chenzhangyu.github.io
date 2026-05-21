@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Huawei Cloud
+subtitle: cs.zychen@gmail.com
 
 profile:
   align: right
