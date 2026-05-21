@@ -1,500 +1,497 @@
-     1|# -----------------------------------------------------------------------------
-     2|# Site settings
-     3|# -----------------------------------------------------------------------------
-     4|
-     5|title: Zhangyu Chen # the website title (if blank, full name will be used instead)
-     6|first_name: Zhangyu
-     7|middle_name: # (none)
-     8|last_name: Chen
-     9|contact_note: >
-    10|  You can even add a little note about which of these is the best way to reach you.
-    11|description: > # the ">" symbol means to ignore newlines until "footer_text:"
-    12|  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: Zhangyu Chen # the website title (if blank, full name will be used instead)
+first_name: Zhangyu
+middle_name: # (none)
+last_name: Chen
+contact_note: Researcher and Engineer at Huawei Cloud.
+description: Zhangyu Chen personal homepage. Researcher at Huawei Cloud, working on AI infrastructure and LLM inference.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-    17|keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-    18|lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-    19|icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-    20|
-    21|url: https://chenzhangyu.github.io # the base hostname & protocol for your site
-    22|baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
-    23|last_updated: false # set to true if you want to display last updated in the footer
-    24|impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-    25|back_to_top: true # set to false to disable the back to top button
-    26|
-    27|# -----------------------------------------------------------------------------
-    28|# Theme
-    29|# -----------------------------------------------------------------------------
-    30|
-    31|# repo color theme
-    32|repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-    33|repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-    34|repo_trophies:
-    35|  enabled: true
-    36|  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-    37|  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
-    38|
-    39|# External service URLs for repository page
-    40|# To use a different instance or service for displaying GitHub stats and trophies,
-    41|# update these URLs. These are used in the repository templates.
-    42|external_services:
-    43|  github_readme_stats_url: https://github-readme-stats.vercel.app
-    44|  github_profile_trophy_url: https://github-profile-trophy.vercel.app
-    45|
-    46|# -----------------------------------------------------------------------------
-    47|# RSS Feed
-    48|# -----------------------------------------------------------------------------
-    49|# will use title and url fields
-    50|# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-    51|
-    52|# -----------------------------------------------------------------------------
-    53|# Layout
-    54|# -----------------------------------------------------------------------------
-    55|
-    56|navbar_fixed: true
-    57|footer_fixed: true
-    58|search_enabled: false
-    59|socials_in_search: true
-    60|posts_in_search: false
-    61|bib_search: false
-    62|
-    63|# Dimensions
-    64|max_width: 930px
-    65|
-    66|# -----------------------------------------------------------------------------
-    67|# Open Graph & Schema.org
-    68|# -----------------------------------------------------------------------------
-    69|# Display links to the page with a preview object on social media.
-    70|# see https://schema.org/docs/faq.html for more information
-    71|serve_og_meta: false # Include Open Graph meta tags in the HTML head
-    72|serve_schema_org: false # Include Schema.org in the HTML head
-    73|og_image: # The site-wide (default for all links) Open Graph preview image
-    74|
-    75|# -----------------------------------------------------------------------------
-    76|# Analytics and search engine verification
-    77|# -----------------------------------------------------------------------------
-    78|
-    79|# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-    80|# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-    81|google_analytics: UA-70816226-1 your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-    82|cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-    83|pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
-    84|openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
-    85|
-    86|# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-    87|google_site_verification: # your google-site-verification ID (Google Search Console)
-    88|bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
-    89|
-    90|# -----------------------------------------------------------------------------
-    91|# Blog
-    92|# -----------------------------------------------------------------------------
-    93|
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+
+url: https://chenzhangyu.github.io # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
+last_updated: false # set to true if you want to display last updated in the footer
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+back_to_top: true # set to false to disable the back to top button
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+
+# repo color theme
+repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_trophies:
+  enabled: true
+  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
+  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+
+# External service URLs for repository page
+# To use a different instance or service for displaying GitHub stats and trophies,
+# update these URLs. These are used in the repository templates.
+external_services:
+  github_readme_stats_url: https://github-readme-stats.vercel.app
+  github_profile_trophy_url: https://github-profile-trophy.vercel.app
+
+# -----------------------------------------------------------------------------
+# RSS Feed
+# -----------------------------------------------------------------------------
+# will use title and url fields
+# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: true
+search_enabled: false
+socials_in_search: true
+posts_in_search: false
+bib_search: false
+
+# Dimensions
+max_width: 930px
+
+# -----------------------------------------------------------------------------
+# Open Graph & Schema.org
+# -----------------------------------------------------------------------------
+# Display links to the page with a preview object on social media.
+# see https://schema.org/docs/faq.html for more information
+serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_schema_org: false # Include Schema.org in the HTML head
+og_image: # The site-wide (default for all links) Open Graph preview image
+
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
+
+# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
+# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
+google_analytics: UA-70816226-1 your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
+pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
+openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+
+# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
+google_site_verification: # your google-site-verification ID (Google Search Console)
+bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+
 blog_name: # no blog
 blog_description: Zhangyu Chen personal homepage
-    96|permalink: /blog/:year/:title/
-    97|lsi: false # produce an index for related posts
-    98|
-    99|# Pagination
-   100|pagination:
-   101|  enabled: true
-   102|
-   103|related_blog_posts:
-   104|  enabled: true
-   105|  max_related: 5
-   106|
-   107|# Giscus comments (RECOMMENDED)
-   108|# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
-   109|giscus:
-   110|  repo: # <your-github-user-name>/<your-github-repo-name>
-   111|  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
-   112|  category: Comments # name of the category under which discussions will be created
-   113|  category_id: # leave empty or specify your category_id (see https://giscus.app/)
-   114|  mapping: title # identify discussions by post title
-   115|  strict: 1 # use strict identification mode
-   116|  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
-   117|  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-   118|  dark_theme: dark # name of the dark color scheme (preferred works well with al-folio dark mode)
-   119|  light_theme: light # name of the light color scheme (preferred works well with al-folio light mode)
-   120|  emit_metadata: 0
-   121|  lang: en
-   122|
-   123|# Disqus comments (DEPRECATED)
-   124|disqus_shortname: al-folio # put your disqus shortname
-   125|# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-   126|
-   127|# External sources.
-   128|# If you have blog posts published on medium.com or other external sources,
-   129|# you can display them in your blog by adding a link to the RSS feed.
-   130|# Optional: Set default categories and tags for posts from each source.
-   131|external_sources:
-   132|  - name: medium.com
-   133|    rss_url: https://medium.com/@al-folio/feed
-   134|    categories: [external-posts]
-   135|    tags: [medium]
-   136|  - name: Google Blog
-   137|    posts:
-   138|      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-   139|        published_date: 2024-05-14
-   140|    categories: [external-posts]
-   141|    tags: [google]
-   142|
-   143|# -----------------------------------------------------------------------------
-   144|# Newsletter
-   145|# -----------------------------------------------------------------------------
-   146|
-   147|newsletter:
-   148|  enabled: false
-   149|  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
-   150|  # https://loops.so/docs/forms/custom-form
-   151|
-   152|# -----------------------------------------------------------------------------
-   153|# Collections
-   154|# -----------------------------------------------------------------------------
-   155|
-   156|collections:
-   157|  books:
-   158|    output: true
-   159|  news:
-   160|    defaults:
-   161|      layout: post
-   162|    output: true
-   163|  projects:
-   164|    output: true
-   165|  teachings:
-   166|    output: true
-   167|
-   168|# -----------------------------------------------------------------------------
-   169|# Jekyll settings
-   170|# -----------------------------------------------------------------------------
-   171|
-   172|# Markdown and syntax highlight
-   173|markdown: kramdown
-   174|highlighter: rouge
-   175|kramdown:
-   176|  input: GFM
-   177|  syntax_highlighter_opts:
-   178|    css_class: "highlight"
-   179|    span:
-   180|      line_numbers: false
-   181|    block:
-   182|      line_numbers: false
-   183|      start_line: 1
-   184|
-   185|# Includes & excludes
-   186|include: ["_pages", "_scripts"]
-   187|exclude:
-   188|  - bin/
-   189|  - CONTRIBUTING.md
-   190|  - CUSTOMIZE.md
-   191|  - Dockerfile
-   192|  - docker-compose.yml
-   193|  - docker-compose-slim.yml
-   194|  - FAQ.md
-   195|  - Gemfile
-   196|  - Gemfile.lock
-   197|  - INSTALL.md
-   198|  - LICENSE
-   199|  - lighthouse_results/
-   200|  - package.json
-   201|  - package-lock.json
-   202|  - _pages/about_einstein.md
-   203|  - purgecss.config.js
-   204|  - README.md
-   205|  - readme_preview/
-   206|  - vendor
-   207|keep_files:
-   208|  - CNAME
-   209|  - .nojekyll
-   210|
-   211|# Plug-ins
-   212|plugins:
-   213|  - jekyll-3rd-party-libraries
-   214|  - jekyll-archives-v2
-   215|  - jekyll-cache-bust
-   216|  - jekyll-email-protect
-   217|  - jekyll-feed
-   218|  - jekyll-get-json
-   219|  - jekyll-imagemagick
-   220|  - jekyll-jupyter-notebook
-   221|  - jekyll-link-attributes
-   222|  - jekyll-minifier
-   223|  - jekyll-paginate-v2
-   224|  - jekyll-regex-replace
-   225|  - jekyll/scholar
-   226|  - jekyll-sitemap
-   227|  - jekyll-socials
-   228|  - jekyll-tabs
-   229|  - jekyll-terser
-   230|  - jekyll-toc
-   231|  - jekyll-twitter-plugin
-   232|  - jemoji
-   233|
-   234|# Sitemap settings
-   235|defaults:
-   236|  - scope:
-   237|      path: "assets"
-   238|    values:
-   239|      sitemap: false
-   240|
-   241|sass:
-   242|  style: compressed
-   243|
-   244|# -----------------------------------------------------------------------------
-   245|# Jekyll Minifier
-   246|# -----------------------------------------------------------------------------
-   247|
-   248|jekyll-minifier:
-   249|  compress_javascript: false # set to false since we are using terser as the js minifier
-   250|  exclude: ["robots.txt", "assets/js/search/*.js"]
-   251|
-   252|# -----------------------------------------------------------------------------
-   253|# Terser
-   254|# -----------------------------------------------------------------------------
-   255|
-   256|terser:
-   257|  compress:
-   258|    drop_console: true
-   259|
-   260|# -----------------------------------------------------------------------------
-   261|# Jekyll Archives
-   262|# -----------------------------------------------------------------------------
-   263|
-   264|jekyll-archives:
-   265|  posts:
-   266|    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-   267|    permalinks:
-   268|      year: "/blog/:year/"
-   269|      tags: "/blog/:type/:name/"
-   270|      categories: "/blog/:type/:name/"
-   271|  books:
-   272|    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-   273|
-   274|display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-   275|display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
-   276|
-   277|# -----------------------------------------------------------------------------
-   278|# Jekyll Scholar
-   279|# -----------------------------------------------------------------------------
-   280|
-   281|scholar:
-   282|  last_name: [Einstein]
-   283|  first_name: [Albert, A.]
-   284|
-   285|  style: apa
-   286|  locale: en
-   287|
-   288|  source: /_bibliography/
-   289|  bibliography: papers.bib
-   290|  bibliography_template: bib
-   291|  # Note: if you have latex math in your bibtex, the latex filter
-   292|  # preprocessing may conflict with MathJAX if the latter is enabled.
-   293|  # See https://github.com/alshedivat/al-folio/issues/357.
-   294|  bibtex_filters: [latex, smallcaps, superscript]
-   295|
-   296|  replace_strings: true
-   297|  join_strings: true
-   298|
-   299|  details_dir: bibliography
-   300|  details_link: Details
-   301|
-   302|  query: "@*"
-   303|  group_by: year
-   304|  group_order: descending
-   305|
-   306|# Display different badges withs stats for your publications
-   307|# Customize badge behavior in _layouts/bib.liquid
-   308|enable_publication_badges:
-   309|  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-   310|  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-   311|  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-   312|  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
-   313|
-   314|# Filter out certain bibtex entry keywords used internally from the bib output
-   315|filtered_bibtex_keywords:
-   316|  [
-   317|    abbr,
-   318|    abstract,
-   319|    additional_info,
-   320|    altmetric,
-   321|    annotation,
-   322|    arxiv,
-   323|    award,
-   324|    award_name,
-   325|    bibtex_show,
-   326|    blog,
-   327|    code,
-   328|    dimensions,
-   329|    eprint,
-   330|    google_scholar_id,
-   331|    hal,
-   332|    html,
-   333|    inspirehep_id,
-   334|    pdf,
-   335|    pmid,
-   336|    poster,
-   337|    preview,
-   338|    selected,
-   339|    slides,
-   340|    supp,
-   341|    video,
-   342|    website,
-   343|  ]
-   344|
-   345|# Maximum number of authors to be shown for each publication (more authors are visible on click)
-   346|max_author_limit: 3 # leave blank to always show all authors
-   347|more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
-   348|
-   349|# Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-   350|enable_publication_thumbnails: true
-   351|
-   352|# -----------------------------------------------------------------------------
-   353|# Jekyll Link Attributes
-   354|# -----------------------------------------------------------------------------
-   355|
-   356|# These are the defaults
-   357|external_links:
-   358|  enabled: true
-   359|  rel: external nofollow noopener
-   360|  target: _blank
-   361|  exclude:
-   362|
-   363|# -----------------------------------------------------------------------------
-   364|# Responsive WebP Images
-   365|# -----------------------------------------------------------------------------
-   366|
-   367|# MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
-   368|#   convert -version
-   369|imagemagick:
-   370|  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
-   371|  widths:
-   372|    - 480
-   373|    - 800
-   374|    - 1400
-   375|  input_directories:
-   376|    - assets/img/
-   377|  input_formats:
-   378|    - ".jpg"
-   379|    - ".jpeg"
-   380|    - ".png"
-   381|    - ".tiff"
-   382|    - ".gif"
-   383|  output_formats:
-   384|    webp: "-auto-orient -quality 85"
-   385|
-   386|# Lazy loading images
-   387|#   If you enable lazy loading, all images will add the loading="lazy" attribute.
-   388|#   This will make your site load faster, but it may not be supported in all browsers.
-   389|#   You can also set loading="" to other values for specific images to override the default behavior.
-   390|#   Options: "auto", "eager", "lazy"
-   391|#   See https://web.dev/browser-level-image-lazy-loading/ for more information.
-   392|lazy_loading_images: true # enables lazy loading of images (recommended)
-   393|
-   394|# -----------------------------------------------------------------------------
-   395|# Optional Features
-   396|# -----------------------------------------------------------------------------
-   397|
-   398|enable_google_analytics: false # enables google analytics
-   399|enable_cronitor_analytics: false # enables cronitor RUM analytics
-   400|enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
-   401|enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-   402|enable_google_verification: false # enables google site verification
-   403|enable_bing_verification: false # enables bing site verification
-   404|enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)
-   405|enable_masonry: true # enables automatic project cards arrangement
-   406|enable_math: true # enables math typesetting (uses MathJax)
-   407|enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-   408|enable_darkmode: false # enables switching between light/dark modes
-   409|enable_navbar_social: false # enables displaying social links in the navbar on the about page
-   410|enable_project_categories: true # enables categorization of projects into multiple categories
-   411|enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-   412|enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
-   413|enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
-   414|
-   415|# -----------------------------------------------------------------------------
-   416|# Library versions
-   417|# -----------------------------------------------------------------------------
-   418|
-   419|# Add the url, version and integrity hash of the libraries you use in your site.
-   420|# The integrity hash is used to ensure that the library is not tampered with.
-   421|# Integrity hashes not provided by the libraries were generated using https://www.srihash.org/
-   422|third_party_libraries:
-   423|  download: false # if true, download the versions of the libraries specified below and use the downloaded files
-   424|  bootstrap-table:
-   425|    integrity:
-   426|      css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
-   427|      js: "sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78="
-   428|    url:
-   429|      css: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
-   430|      js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
-   431|    version: "1.22.4"
-   432|  chartjs:
-   433|    integrity:
-   434|      js: "sha256-0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="
-   435|    url:
-   436|      js: "https://cdn.jsdelivr.net/npm/chart.js@{{version}}/dist/chart.umd.min.js"
-   437|    version: "4.4.1"
-   438|  d3:
-   439|    integrity:
-   440|      js: "sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw="
-   441|    url:
-   442|      js: "https://cdn.jsdelivr.net/npm/d3@{{version}}/dist/d3.min.js"
-   443|    version: "7.8.5"
-   444|  diff2html:
-   445|    integrity:
-   446|      css: "sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg="
-   447|      js: "sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY="
-   448|    url:
-   449|      css: "https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/css/diff2html.min.css"
-   450|      js: "https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/js/diff2html-ui.min.js"
-   451|    version: "3.4.47"
-   452|  echarts:
-   453|    integrity:
-   454|      js:
-   455|        library: "sha256-QvgynZibb2U53SsVu98NggJXYqwRL7tg3FeyfXvPOUY="
-   456|        dark_theme: "sha256-sm6Ui9w41++ZCWmIWDLC18a6ki72FQpWDiYTDxEPXwU="
-   457|    url:
-   458|      js:
-   459|        library: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js"
-   460|        dark_theme: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/theme/dark-fresh-cut.js"
-   461|    version: "5.5.0"
-   462|  google_fonts:
-   463|    url:
-   464|      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
-   465|  highlightjs:
-   466|    integrity:
-   467|      css:
-   468|        light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY="
-   469|        dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
-   470|    url:
-   471|      css:
-   472|        light: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github.min.css"
-   473|        dark: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github-dark.min.css"
-   474|    version: "11.9.0"
-   475|  imagesloaded:
-   476|    integrity:
-   477|      js: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
-   478|    url:
-   479|      js: https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
-   480|    version: "5.0.0"
-   481|  img-comparison-slider:
-   482|    integrity:
-   483|      css: "sha256-3qTIuuUWIFnnU3LpQMjqiXc0p09rvd0dmj+WkpQXSR8="
-   484|      js: "sha256-EXHg3x1K4oIWdyohPeKX2ZS++Wxt/FRPH7Nl01nat1o="
-   485|      map: "sha256-3wfqS2WU5kGA/ePcgFzJXl5oSN1QsgZI4/edprTgX8w="
-   486|    url:
-   487|      css: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/styles.min.css"
-   488|      js: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.min.js"
-   489|      map: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.js.map"
-   490|    version: "8.0.6"
-   491|  jquery:
-   492|    integrity:
-   493|      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-   494|    url:
-   495|      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
-   496|    version: "3.6.0"
-   497|  leaflet:
-   498|    integrity:
-   499|      css: "sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ="
-   500|      js: "sha256-MgH13bFTTNqsnuEoqNPBLDaqxjGH+lCpqrukmXc8Ppg="
-   501|
+permalink: /blog/:year/:title/
+lsi: false # produce an index for related posts
+
+# Pagination
+pagination:
+  enabled: true
+
+related_blog_posts:
+  enabled: true
+  max_related: 5
+
+# Giscus comments (RECOMMENDED)
+# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
+giscus:
+  repo: # <your-github-user-name>/<your-github-repo-name>
+  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
+  category: Comments # name of the category under which discussions will be created
+  category_id: # leave empty or specify your category_id (see https://giscus.app/)
+  mapping: title # identify discussions by post title
+  strict: 1 # use strict identification mode
+  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
+  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
+  dark_theme: dark # name of the dark color scheme (preferred works well with al-folio dark mode)
+  light_theme: light # name of the light color scheme (preferred works well with al-folio light mode)
+  emit_metadata: 0
+  lang: en
+
+# Disqus comments (DEPRECATED)
+disqus_shortname: al-folio # put your disqus shortname
+# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+# External sources.
+# If you have blog posts published on medium.com or other external sources,
+# you can display them in your blog by adding a link to the RSS feed.
+# Optional: Set default categories and tags for posts from each source.
+external_sources:
+  - name: medium.com
+    rss_url: https://medium.com/@al-folio/feed
+    categories: [external-posts]
+    tags: [medium]
+  - name: Google Blog
+    posts:
+      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+        published_date: 2024-05-14
+    categories: [external-posts]
+    tags: [google]
+
+# -----------------------------------------------------------------------------
+# Newsletter
+# -----------------------------------------------------------------------------
+
+newsletter:
+  enabled: false
+  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
+  # https://loops.so/docs/forms/custom-form
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  books:
+    output: true
+  news:
+    defaults:
+      layout: post
+    output: true
+  projects:
+    output: true
+  teachings:
+    output: true
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Markdown and syntax highlight
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+# Includes & excludes
+include: ["_pages", "_scripts"]
+exclude:
+  - bin/
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - FAQ.md
+  - Gemfile
+  - Gemfile.lock
+  - INSTALL.md
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - _pages/about_einstein.md
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - vendor
+keep_files:
+  - CNAME
+  - .nojekyll
+
+# Plug-ins
+plugins:
+  - jekyll-3rd-party-libraries
+  - jekyll-archives-v2
+  - jekyll-cache-bust
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-socials
+  - jekyll-tabs
+  - jekyll-terser
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
+
+# Sitemap settings
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+
+sass:
+  style: compressed
+
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  compress_javascript: false # set to false since we are using terser as the js minifier
+  exclude: ["robots.txt", "assets/js/search/*.js"]
+
+# -----------------------------------------------------------------------------
+# Terser
+# -----------------------------------------------------------------------------
+
+terser:
+  compress:
+    drop_console: true
+
+# -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
+
+jekyll-archives:
+  posts:
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    permalinks:
+      year: "/blog/:year/"
+      tags: "/blog/:type/:name/"
+      categories: "/blog/:type/:name/"
+  books:
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+
+display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
+scholar:
+  last_name: [Einstein]
+  first_name: [Albert, A.]
+
+  style: apa
+  locale: en
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  # Note: if you have latex math in your bibtex, the latex filter
+  # preprocessing may conflict with MathJAX if the latter is enabled.
+  # See https://github.com/alshedivat/al-folio/issues/357.
+  bibtex_filters: [latex, smallcaps, superscript]
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_link: Details
+
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+# Display different badges withs stats for your publications
+# Customize badge behavior in _layouts/bib.liquid
+enable_publication_badges:
+  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
+  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
+  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+
+# Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords:
+  [
+    abbr,
+    abstract,
+    additional_info,
+    altmetric,
+    annotation,
+    arxiv,
+    award,
+    award_name,
+    bibtex_show,
+    blog,
+    code,
+    dimensions,
+    eprint,
+    google_scholar_id,
+    hal,
+    html,
+    inspirehep_id,
+    pdf,
+    pmid,
+    poster,
+    preview,
+    selected,
+    slides,
+    supp,
+    video,
+    website,
+  ]
+
+# Maximum number of authors to be shown for each publication (more authors are visible on click)
+max_author_limit: 3 # leave blank to always show all authors
+more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
+
+# Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
+enable_publication_thumbnails: true
+
+# -----------------------------------------------------------------------------
+# Jekyll Link Attributes
+# -----------------------------------------------------------------------------
+
+# These are the defaults
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+  exclude:
+
+# -----------------------------------------------------------------------------
+# Responsive WebP Images
+# -----------------------------------------------------------------------------
+
+# MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
+#   convert -version
+imagemagick:
+  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img/
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+    - ".gif"
+  output_formats:
+    webp: "-auto-orient -quality 85"
+
+# Lazy loading images
+#   If you enable lazy loading, all images will add the loading="lazy" attribute.
+#   This will make your site load faster, but it may not be supported in all browsers.
+#   You can also set loading="" to other values for specific images to override the default behavior.
+#   Options: "auto", "eager", "lazy"
+#   See https://web.dev/browser-level-image-lazy-loading/ for more information.
+lazy_loading_images: true # enables lazy loading of images (recommended)
+
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+
+enable_google_analytics: false # enables google analytics
+enable_cronitor_analytics: false # enables cronitor RUM analytics
+enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
+enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
+enable_google_verification: false # enables google site verification
+enable_bing_verification: false # enables bing site verification
+enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)
+enable_masonry: true # enables automatic project cards arrangement
+enable_math: true # enables math typesetting (uses MathJax)
+enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
+enable_darkmode: false # enables switching between light/dark modes
+enable_navbar_social: false # enables displaying social links in the navbar on the about page
+enable_project_categories: true # enables categorization of projects into multiple categories
+enable_medium_zoom: true # enables image zoom feature (as on medium.com)
+enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
+
+# -----------------------------------------------------------------------------
+# Library versions
+# -----------------------------------------------------------------------------
+
+# Add the url, version and integrity hash of the libraries you use in your site.
+# The integrity hash is used to ensure that the library is not tampered with.
+# Integrity hashes not provided by the libraries were generated using https://www.srihash.org/
+third_party_libraries:
+  download: false # if true, download the versions of the libraries specified below and use the downloaded files
+  bootstrap-table:
+    integrity:
+      css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
+      js: "sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
+      js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
+    version: "1.22.4"
+  chartjs:
+    integrity:
+      js: "sha256-0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/chart.js@{{version}}/dist/chart.umd.min.js"
+    version: "4.4.1"
+  d3:
+    integrity:
+      js: "sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/d3@{{version}}/dist/d3.min.js"
+    version: "7.8.5"
+  diff2html:
+    integrity:
+      css: "sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg="
+      js: "sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/css/diff2html.min.css"
+      js: "https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/js/diff2html-ui.min.js"
+    version: "3.4.47"
+  echarts:
+    integrity:
+      js:
+        library: "sha256-QvgynZibb2U53SsVu98NggJXYqwRL7tg3FeyfXvPOUY="
+        dark_theme: "sha256-sm6Ui9w41++ZCWmIWDLC18a6ki72FQpWDiYTDxEPXwU="
+    url:
+      js:
+        library: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js"
+        dark_theme: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/theme/dark-fresh-cut.js"
+    version: "5.5.0"
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+  highlightjs:
+    integrity:
+      css:
+        light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY="
+        dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
+    url:
+      css:
+        light: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github.min.css"
+        dark: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github-dark.min.css"
+    version: "11.9.0"
+  imagesloaded:
+    integrity:
+      js: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
+    url:
+      js: https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
+    version: "5.0.0"
+  img-comparison-slider:
+    integrity:
+      css: "sha256-3qTIuuUWIFnnU3LpQMjqiXc0p09rvd0dmj+WkpQXSR8="
+      js: "sha256-EXHg3x1K4oIWdyohPeKX2ZS++Wxt/FRPH7Nl01nat1o="
+      map: "sha256-3wfqS2WU5kGA/ePcgFzJXl5oSN1QsgZI4/edprTgX8w="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/styles.min.css"
+      js: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.min.js"
+      map: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.js.map"
+    version: "8.0.6"
+  jquery:
+    integrity:
+      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+    version: "3.6.0"
+  leaflet:
+    integrity:
+      css: "sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ="
+      js: "sha256-MgH13bFTTNqsnuEoqNPBLDaqxjGH+lCpqrukmXc8Ppg="
