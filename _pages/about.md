@@ -8,10 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>Zhangyu Chen (陈章玉)</p>
-    <p>Huawei Cloud</p>
-    <p><a href="mailto:cs.zychen@gmail.com"><i class="fas fa-envelope"></i></a> cs.zychen@gmail.com</p>
 
 selected_papers: true
 social: false
