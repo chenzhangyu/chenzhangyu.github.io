@@ -14,7 +14,7 @@ profile:
     <p><a href="mailto:cs.zychen@gmail.com"><i class="fas fa-envelope"></i></a> cs.zychen@gmail.com</p>
 
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
