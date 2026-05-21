@@ -3,35 +3,35 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-",
-    title: "",
+    id: "nav-about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "Publications in reversed chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-services",
-          title: "services",
+          title: "Services",
           description: "Professional Services",
           section: "Navigation",
           handler: () => {
             window.location.href = "/services/";
           },
         },{id: "nav-talks",
-          title: "talks",
+          title: "Talks",
           description: "Invited Talks and Presentations",
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
           },
         },{id: "nav-honors",
-          title: "honors",
+          title: "Honors",
           description: "Awards and Honors",
           section: "Navigation",
           handler: () => {
