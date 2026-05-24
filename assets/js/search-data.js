@@ -37,11 +37,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/honors/";
           },
-        },{id: "news-our-paper-rolex-won-the-best-paper-award-at-fast-2023",
-          title: 'Our paper ROLEX won the Best Paper Award at FAST 2023! 🏆',
-          description: "",
-          section: "News",},{id: "news-our-paper-gphash-has-been-accepted-by-fast-2025",
+        },{id: "news-our-paper-gphash-has-been-accepted-by-fast-2025",
           title: 'Our paper GPHash has been accepted by FAST 2025!',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-fail-slow-hardware-failure-bugs-has-been-accepted-by-usenix-atc-2025",
+          title: 'Our paper on fail-slow hardware failure bugs has been accepted by USENIX ATC...',
           description: "",
           section: "News",},{id: "news-our-paper-on-fail-slow-hardware-failure-bugs-received-best-paper-award-nomination-at-usenix-atc-2025",
           title: 'Our paper on fail-slow hardware failure bugs received Best Paper Award Nomination at...',
